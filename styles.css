@@ -22,11 +22,11 @@ header .back_image {
     top: 8vh;
     right: 10vw;
     display: flex;
-    margin-top:3vh;
+    margin-top: 3vh;
     /*margin:3vh 1vh 4vw 0;*/
 }
 
-.banner_square{
+.banner_square {
     font-size: 70px;
     font-weight: 500;
     color: white;
@@ -35,7 +35,6 @@ header .back_image {
     left: 12vw;
     border: solid white 1px;
     padding: 30px 90px 30px 30px;
-    
 }
 
 footer {
@@ -103,4 +102,53 @@ body {
 .attribution {
     margin-top: 10px;
     float: right;
+}
+
+.card {
+    background-color: white;
+    padding: 7%;
+    width: 30vw;
+    color: gray;
+    font-weight: 800;
+    position: relative;
+    left: 49vw;
+    bottom: 25vh;
+    line-height: 150%;
+}
+
+
+.card h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    line-height: 100%;
+}
+
+.interac_img img {
+    width: 53vw;
+    height: auto;
+    position: relative;
+    left: 8vw;
+    top: 20vh;
+}
+
+.creations{
+    display: flex;
+    padding: 0 8% 5% 8%;
+    margin-top: -10%;
+    justify-content: space-between;
+    
+}
+
+.creations h1{
+    font-size: 40px;
+}
+
+.creations button{
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 150px;
+    border: solid gray 1px;
+    border-radius: 3px;
 }
