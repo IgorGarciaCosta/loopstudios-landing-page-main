@@ -5,6 +5,7 @@
 
 header .back_image {
     width: 100%;
+    -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 10%);
 }
 
 .header_logo {
@@ -169,9 +170,15 @@ body {
 }
 
 .grid_item img {
+    -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 30%);
     width: 100%;
     height: auto;
     margin-bottom: -7vh;
 }
 
-/*Add gradient bottom to top on images*/
+
+/*MOBILE*/
+@media only screen and (max-width:500px) {
+
+    
+}
