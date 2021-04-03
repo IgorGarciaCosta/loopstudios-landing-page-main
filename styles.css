@@ -13,6 +13,7 @@ header .back_image {
     top: 5vh;
     left: 7vw;
     margin: 3vh 0 0 5vw;
+    z-index: 2;
 }
 
 .header_options {
@@ -25,6 +26,10 @@ header .back_image {
     display: flex;
     margin-top: 3vh;
     /*margin:3vh 1vh 4vw 0;*/
+}
+
+.icon-button{
+    display:none
 }
 
 .banner_square {
@@ -176,9 +181,3 @@ body {
     margin-bottom: -7vh;
 }
 
-
-/*MOBILE*/
-@media only screen and (max-width:500px) {
-
-    
-}
